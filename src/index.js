@@ -3,13 +3,9 @@ import http from 'http'
 
 import cors from 'cors'
 import morgan from 'morgan'
-import jwt from 'jsonwebtoken'
 import DataLoader from 'dataloader'
 import express from 'express'
-import {
-  ApolloServer,
-  AuthenticationError
-} from 'apollo-server-express'
+import { ApolloServer } from 'apollo-server-express'
 
 import schema from './schema'
 import resolvers from './resolvers'
@@ -25,20 +21,6 @@ app.use(morgan('dev'))
 app.get('/', (req, res) => {
   res.send('Node api boilerplate is working!')
 })
-
-const getMe = async (req) => {
-  const token = req.headers['x-token']
-
-  if (token) {
-    try {
-      return await jwt.verify(token, process.env.SECRET)
-    } catch (e) {
-      throw new AuthenticationError(
-        'Your session expired. Sign in again.'
-      )
-    }
-  }
-}
 
 const server = new ApolloServer({
   introspection: true,
@@ -67,11 +49,8 @@ const server = new ApolloServer({
     }
 
     if (req) {
-      const me = await getMe(req)
-
       return {
         models,
-        me,
         secret: process.env.SECRET,
         loaders: {
           user: new DataLoader((keys) =>
