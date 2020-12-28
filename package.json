@@ -55,7 +55,7 @@
     "express": "^4.16.4",
     "graphql": "^14.0.2",
     "graphql-iso-date": "^3.6.1",
-    "graphql-resolvers": "^0.2.2",
+    "graphql-resolvers": "^0.4.2",
     "graphql-scalars": "^1.1.3",
     "jsonwebtoken": "^8.4.0",
     "morgan": "^1.9.1",
