@@ -44,7 +44,7 @@
     "wait-on": "^5.0.0"
   },
   "dependencies": {
-    "apollo-server": "^2.2.3",
+    "apollo-server": "^2.19.1",
     "apollo-server-express": "^2.2.3",
     "axios": "^0.18.0",
     "bcrypt": "^3.0.2",
