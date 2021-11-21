@@ -40,7 +40,7 @@
     "eslint-plugin-import": "^2.25.3",
     "husky": "^7.0.4",
     "mocha": "^9.0.2",
-    "nodemon": "^2.0.14",
+    "nodemon": "^2.0.15",
     "wait-on": "^6.0.0"
   },
   "dependencies": {
