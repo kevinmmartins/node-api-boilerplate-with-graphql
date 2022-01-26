@@ -50,7 +50,7 @@
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "dataloader": "^2.0.0",
-    "dotenv": "^14.3.0",
+    "dotenv": "^14.3.2",
     "express": "^4.17.2",
     "graphql": "^14.7.0",
     "graphql-iso-date": "^3.6.1",
