@@ -29,7 +29,7 @@
     }
   },
   "devDependencies": {
-    "@babel/core": "^7.22.5",
+    "@babel/core": "^7.22.6",
     "@babel/node": "^7.20.2",
     "@babel/preset-env": "^7.22.5",
     "@babel/register": "^7.21.0",
