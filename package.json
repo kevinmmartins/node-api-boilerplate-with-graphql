@@ -33,7 +33,7 @@
     "@babel/node": "^7.22.19",
     "@babel/preset-env": "^7.22.20",
     "@babel/register": "^7.22.15",
-    "chai": "^4.3.7",
+    "chai": "^4.3.9",
     "concurrently": "^8.2.1",
     "eslint": "^7.31.0",
     "eslint-config-airbnb-base": "^14.2.1",
