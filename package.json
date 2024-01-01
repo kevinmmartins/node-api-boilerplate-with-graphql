@@ -32,7 +32,7 @@
     "@babel/core": "^7.23.6",
     "@babel/node": "^7.22.19",
     "@babel/preset-env": "^7.23.6",
-    "@babel/register": "^7.22.15",
+    "@babel/register": "^7.23.7",
     "chai": "^4.3.10",
     "concurrently": "^8.2.2",
     "eslint": "^7.31.0",
