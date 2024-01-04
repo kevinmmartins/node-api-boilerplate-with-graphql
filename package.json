@@ -46,7 +46,7 @@
   "dependencies": {
     "apollo-server": "^2.26.1",
     "apollo-server-express": "^2.26.0",
-    "axios": "^1.6.3",
+    "axios": "^1.6.4",
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
     "dataloader": "^2.2.2",
