@@ -41,7 +41,7 @@
     "husky": "^9.1.7",
     "mocha": "^10.8.2",
     "nodemon": "^3.1.10",
-    "wait-on": "^8.0.4"
+    "wait-on": "^9.0.0"
   },
   "dependencies": {
     "apollo-server": "^2.26.1",
