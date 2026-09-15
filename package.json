@@ -34,7 +34,7 @@
     "@babel/preset-env": "^7.28.0",
     "@babel/register": "^7.28.6",
     "chai": "^6.0.1",
-    "concurrently": "^9.1.2",
+    "concurrently": "^10.0.5",
     "eslint": "^9.39.2",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.31.0",
