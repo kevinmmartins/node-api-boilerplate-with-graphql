@@ -31,7 +31,7 @@
   "devDependencies": {
     "@babel/core": "^7.29.0",
     "@babel/node": "^7.22.19",
-    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-env": "^8.0.5",
     "@babel/register": "^7.28.6",
     "chai": "^6.0.1",
     "concurrently": "^9.1.2",
